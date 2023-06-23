@@ -11,7 +11,6 @@ package domainModels;
 public class CuaHang {
 
     private String ma;
-
     private String ten;
     private String diaChi;
     private String thanhPho;
@@ -67,9 +66,8 @@ public class CuaHang {
     public void setQuocGia(String quocGia) {
         this.quocGia = quocGia;
     }
-    
 
     public Object[] toDaTaRow() {
-        return new Object[]{ma, ten,diaChi,thanhPho,quocGia};
+        return new Object[]{ma, ten, diaChi, thanhPho, quocGia};
     }
 }

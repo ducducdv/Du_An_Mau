@@ -17,7 +17,7 @@ public class Applcation {
     public static void main(String[] args) {
 //        new FrmMauSac().setVisible(true);
         // new FrmSanPham().setVisible(true);
-        //new FrmKhachHang().setVisible(true);
-        new FrmCuaHang().setVisible(true);
+        new FrmKhachHang().setVisible(true);
+        //new FrmNhanVien().setVisible(true);
     }
 }
